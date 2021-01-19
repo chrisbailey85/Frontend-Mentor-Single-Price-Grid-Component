@@ -108,7 +108,12 @@ main {
     }
   }
 }
-
+footer {
+  margin-top: 2vh;
+  width: 100%;
+  text-align: center;
+  font-size: 11px;
+}
 @media (min-width: 768px) {
   .card {
     grid-template-columns: 1fr 1fr;
@@ -158,12 +163,7 @@ main {
     height: 500px;
   }
 }
-footer {
-  margin-top: 20px;
-  width: 100%;
-  text-align: center;
-  font-size: 11px;
-}
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
